@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Music Tweet",
+  "version": "0.0.0",
+  "description": "Chrome extension for Twitter",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "css": [""],
+      "js": [""]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "",
+      "32": "",
+      "48": "",
+      "128": ""
+    },
+    "default_title": "Music Tweet",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "",
+    "32": "",
+    "48": "",
+    "128": "images/"
+  }
+}
